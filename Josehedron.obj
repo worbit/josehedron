@@ -1,0 +1,29 @@
+# Josehedron
+# single shape with integer coordinates
+# as in https://doi.org/10.5281/zenodo.19471917, Fig. 3
+
+v -7 -4 2
+v -7 4 -2
+v 7 -2 -4
+v 7 2 4
+v -1 -2 -8
+v -1 2 8
+v 1 -8 2
+v 1 8 -2
+v -3 -6 -3
+v -3 6 3
+v 3 -3 6
+v 3 3 -6
+
+f 1 6 11 7
+f 1 9 5 2
+f 2 5 12 8
+f 3 4 8 12
+f 4 3 7 11
+f 3 5 9 7
+f 1 2 10 6
+f 4 8 10 6
+f 1 7 9
+f 2 8 10
+f 3 12 5
+f 4 11 6
